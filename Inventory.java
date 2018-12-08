@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 import java.util.Scanner;
-class blah {
+class Inventory {
     private static Scanner userInput = new Scanner(System.in);
     static String myName;
     static boolean methodLoop = false; //the while loop varialbe for all method while loops
@@ -330,7 +330,7 @@ class blah {
         }
     }//end Tool
     //the method that allows the "manager" to go in and edit the inventory of planes password is "Password1"
-    private static final String password = "Password1";
+    private static final String password = "Password1"; //password that cannot be changed by user and is set by source code
     private static void manageInventory() {
         while(!methodLoop) {
             System.out.println("Enter the password: ");
